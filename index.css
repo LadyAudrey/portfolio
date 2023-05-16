@@ -1,3 +1,53 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -53,12 +103,11 @@ body {
 
 #container {
   display: grid;
-  grid-template-rows: 10vh 20vh 70vh 10vh;
-  grid-template-columns: repeat(8, 15%);
-  gap: 5vw;
+  grid-template-rows: 15vh 1fr;
+  grid-template-columns: repeat(8, 15vw);
   height: 100vh;
   width: 100vw;
-  gap: var(--darkest-gold) 5px;
+  margin-bottom: -10vh;
 }
 
 header {
@@ -71,22 +120,34 @@ header {
   grid-row: 1;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
   align-items: center;
 }
 
 h1 {
-  font-size: 6vh;
-  padding-left: 10vw;
+  padding-left: 14%;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px var(--medium-blue);
 }
 
 h2 {
-  font-size: 5vh;
+  font-size: 1rem;
+  font-weight: bold;
   color: var(--lightest-cream);
+  padding-left: .8rem;
+  padding-top: .8rem;
+}
+
+h3 {
+  font-weight: bold;
 }
 
 p {
   color: var(--lightest-cream);
+  line-height: 1.6;
+}
+
+ul {
+  line-height: 1.6;
 }
 
 #title {
@@ -104,16 +165,18 @@ p {
   grid-column: 1;
   grid-row: 2 / 4;
   overflow-y: scroll;
-  direction: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.navItem {
+.navItem, .project-logo {
   height: 8vw;
   width: auto;
   padding: 1vw;
+  justify-content: center;
+  align-items: center;
 }
 
 #content {
@@ -121,11 +184,12 @@ p {
   color: var(--lightest-cream);
   overflow-y: scroll;
   grid-column: 2 / 8;
-  grid-row: 3;
+  grid-row: 2;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 30% 30%; */
+  grid-template-columns: 30vw 30vw;
+  grid-template-rows: 1fr 1fr;
   column-gap: 5vw;
+  row-gap: 5vw;
   padding: 5vw 10vw;
 }
 
@@ -138,9 +202,19 @@ p {
 }
 
 .contentImg {
-  height: 50vh;
+  height: 70vh;
   width: auto;
-  justify-content: center;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+#project-logos {
+  display: flex;
+  flex-direction: row;
+}
+
+#project-logos * {
+  height: 30vh;
 }
 
 footer {
@@ -148,9 +222,33 @@ footer {
   border-top: var(--darkest-gold) 5px solid;
   color: var(--lighter-blue);
   grid-column: 1 / 8;
-  grid-row: 4;
+  margin-top: -10vh;
+  height: 10vh;
 }
 
 #TStribute {
   background-image: url('../public/TS_Tribute.IM_Fell_DW_Pica.svg')
+}
+
+@media only screen and (max-width: 600px) {
+  /* CSS rules for small screens */
+
+  #nav {
+    display: none;
+  }
+  #content {
+    grid-column: 1 / 8;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  /* CSS rules for medium screens */
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  /* CSS rules for large screens */
+}
+
+@media only screen and (min-width: 1201px) {
+  /* CSS rules for extra-large screens */
 }
