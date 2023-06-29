@@ -57,7 +57,7 @@ table {
   color: #FFB872;
   background-color: #092026;
 
-  --lightest-cream: #e0cfbf;
+  --lightest-cream: #f6eadf;
   --lighter-cream: #e0cfbf;
   --dark-light-cream: #E09c57;
   --medium-cream: #AA7139;
@@ -114,7 +114,7 @@ header {
   grid-area: header;
   background: linear-gradient(var(--darkest-gold), var(--light-dark-rose));
   border-bottom: var(--darkest-gold) 5px solid;
-  color: var(--lighter-blue);
+  color: var(--lightest-blue);
   font-size: 7vh;
   grid-column: 1 / 8;
   grid-row: 1;
@@ -130,7 +130,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: var(--lightest-cream);
   padding-left: .8rem;
@@ -139,11 +139,14 @@ h2 {
 
 h3 {
   font-weight: bold;
+  font-size: 5vh;
+  padding: 5vh;
 }
 
 p {
   color: var(--lightest-cream);
-  line-height: 1.6;
+  font-size: 3vh;
+  line-height: 2;
 }
 
 ul {
@@ -171,7 +174,7 @@ ul {
   justify-content: center;
 }
 
-.navItem, .project-logo {
+.navItem {
   height: 8vw;
   width: auto;
   padding: 1vw;
@@ -204,17 +207,22 @@ ul {
 .contentImg {
   height: 70vh;
   width: auto;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
+  border: var(--dark-light-cream) 5px solid;
 }
 
-#project-logos {
+#mandala {
+  border: none;
+}
+
+.project-logos {
   display: flex;
   flex-direction: row;
-}
-
-#project-logos * {
-  height: 30vh;
+  height: 50vh;
+  width: auto;
+  margin-bottom: 5vh;
+  place-items: center;
 }
 
 footer {
