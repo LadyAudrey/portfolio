@@ -10,7 +10,6 @@
     h1 {
         @apply text-2xl
     }
-    
     h2{
         @apply text-xl m-5
     }
@@ -19,6 +18,9 @@
     }
     .bulletPt {
         @apply mx-3
+    }
+    .card {
+        @apply w-1/2
     }
     .menu_items {
         @apply flex flex-row items-center leading-tight
