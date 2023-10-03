@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+    overflow-anchor: none;
+}
+
+@layer components {
+    h1 {
+        @apply text-2xl
+    }
+    
+    h2{
+        @apply text-xl m-5
+    }
+    p{
+        @apply m-10 leading-loose
+    }
+    .bulletPt {
+        @apply mx-3
+    }
+    .menu_items {
+        @apply flex flex-row items-center leading-tight
+        w-fit
+    }
+}

@@ -2,7 +2,8 @@ import Image from "next/image";
 
 export default function SocialMediaLinks() {
   return (
-    <div className="w-full flex flex-row place-content-between gap-3 opacity-70">
+    <div className="flex flex-row items-center place-content-around gap-4 bg-gradient-to-b from-transparent via-green-950
+    via to-blue-rgba(23, 37, 84, .3) opacity-70">
       <Image
         src="/logos/github-mark/github-mark/github-mark-white.svg"
         height={30}
