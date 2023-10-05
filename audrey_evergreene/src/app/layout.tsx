@@ -2,7 +2,6 @@ import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
 import Nav from "./components/SocialMediaLinks";
-import Info from "./components/Info";
 import Menu from "./components/Menu";
 import CornerGraphic from "./components/CornerGraphic";
 
