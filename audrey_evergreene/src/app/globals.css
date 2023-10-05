@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+    overflow-anchor: none;
+}
+
+@layer components {
+    h1 {
+        @apply text-6xl
+    }
+    h2{
+        @apply text-4xl m-10
+    }
+    p{
+        @apply m-10 text-2xl leading-loose
+    }
+    .bulletPt {
+        @apply mx-3
+    }
+    .card {
+        @apply w-1/2 flex flex-col items-center p-5
+    }
+    .graphic {
+        @apply w-1/2 h-auto mt-10 opacity-50 border-solid border-2 border-yellow-700 rounded-lg
+    }
+    .dualHeader {
+        @apply text-center text-4xl
+    }
+    .menu_items {
+        @apply flex flex-row items-center leading-relaxed text-3xl
+        w-fit
+    }
+}

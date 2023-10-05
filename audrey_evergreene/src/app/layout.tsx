@@ -1,9 +1,10 @@
 import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
-import Nav from "./components/Nav";
+import Nav from "./components/SocialMediaLinks";
 import Info from "./components/Info";
 import Menu from "./components/Menu";
+import CornerGraphic from "./components/CornerGraphic";
 
 export default function RootLayout({
   children,
@@ -12,32 +13,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen w-screen bg-gradient-to-b from-blue-950 to-green-950 grid grid-cols-12 grid-rows-6">
-        <div className="flex flex-row">
-          <Image
-            src="/cornerGraphic.svg"
-            width={500}
-            height={500}
-            alt="graphic"
-            className="p-5 absolute top-0 left-0"
-          ></Image>
-          <Nav />
+      <body className="min-w-screen min-h-screen bg-gradient-to-b from-blue-950 to-green-950 text-white">
+        <div className="fixed top-5 left-5 w-1/2 h-auto">
+          <Link href="/" replace>
+            {" "}
+            <img src="/cornerGraphic/cornerGraphic.svg" alt="graphic" />
+          </Link>
         </div>
-        <div className="col-start-2 col-span-10 row-start-2 row-span-4 grid grid-cols-4 gap-6 p-5">
-          <div className="col-start-1 col-span-2">
-            <Info/>
-          </div>
-          <div className="col-start-4">
-            <Menu />
-          </div>
+        <div className="fixed flex top-5 right-10">
+          <Menu />
         </div>
-        <Image
-          src="/cornerGraphic.svg"
-          width={400}
-          height={400}
-          alt="graphic"
-          className="opacity-20 p-5 rotate-180 absolute bottom-0 right-0"
-        ></Image>
+        <div className="min-w-full md:pt-40 md:px-60 flex flex-row justify-between container">
+          <div>{children}</div>
+        </div>
+        <p className="fixed bottom-3 text-white italic opacity-80">
+          @2023 Created by Audrey Evergreene
+        </p>
+        <CornerGraphic />
       </body>
     </html>
   );
