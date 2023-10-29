@@ -21,6 +21,7 @@ export default function RootLayout({
         <div className="absolute top-5 right-8">
           <MenuButton />
         </div>
+        {children}
         <p className="fixed bottom-3 text-white italic opacity-80">
           @2023 Created by Audrey Evergreene
         </p>
