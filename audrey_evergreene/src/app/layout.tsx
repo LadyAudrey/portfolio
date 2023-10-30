@@ -13,9 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-w-screen min-h-screen bg-gradient-to-b from-blue-950 to-green-950 text-white">
-        <div className="absolute top-5 left-5 w-1/2 h-auto">
-          <img src="/cornerGraphic/cornerGraphic.svg" alt="graphic" />
+      <body className="h-full w-full bg-gradient-to-b from-blue-950 to-green-950 text-white">
+        <div className="fixed top-5 left-5 w-1/2 h-auto">
+          <CornerGraphic />
         </div>
         <div>
           <Menu />
@@ -26,7 +26,9 @@ export default function RootLayout({
         <p className="fixed bottom-3 text-white italic opacity-80">
           @2023 Created by Audrey Evergreene
         </p>
-        <CornerGraphic />
+        <div className="fixed right-5 bottom-5 w-1/2 h-auto rotate-180">
+          <CornerGraphic />
+        </div>
       </body>
     </html>
   );
