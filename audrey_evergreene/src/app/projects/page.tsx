@@ -1,13 +1,22 @@
+import Project from "../components/Project";
 export default function page() {
   return (
     <>
-      <div className="card">
-        <h2>Coding</h2>
-        <p></p>
-      </div>
-      <div className="card">
-        <h2>Designing</h2>
-        <p></p>
+      <div className="w-full">
+        <Project
+          proj_name={"Debugging the Coder's Mind"}
+          proj_memo={
+            "Teaching web development, increasing user comprehension by 70 percent"
+          }
+          GHLink={"https://github.com/LadyAudrey/debugging_the_coders_mind"}
+          logo={"/logos/projects/Logo.svg"}
+          attributes={"Pair Programming"}
+          TandT={"React, Next, Tailwind, Js, HTML, Supabase, Vercel"}
+          role={"Designer and Project Mastermind"}
+          timeline={"1/1/2022 - Present"}
+          goals={"To teach JavaScript and Web Dev in a friendly blog format"}
+          challenges={"Integrating FrontEnd and Backend frameworks with MXL"}
+        />
       </div>
     </>
   );
