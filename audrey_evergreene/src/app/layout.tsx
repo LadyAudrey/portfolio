@@ -17,13 +17,12 @@ export default function RootLayout({
         <div className="absolute top-5 left-5 w-1/2 h-auto">
           <img src="/cornerGraphic/cornerGraphic.svg" alt="graphic" />
         </div>
+        <div>
+          <Menu />
+        </div>
         <div className="min-w-full md:pt-40 md:px-60 flex flex-row justify-between container">
           <div>{children}</div>
-          <div>
-            <Menu />
-          </div>
         </div>
-        {children}
         <p className="fixed bottom-3 text-white italic opacity-80">
           @2023 Created by Audrey Evergreene
         </p>
