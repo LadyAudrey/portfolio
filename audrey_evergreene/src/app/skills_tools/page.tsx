@@ -14,12 +14,12 @@ export default function page() {
               Developing the mindset of a coder is a skill and takes time.
               Learning how to learn takes practice. Your explore tools, figuring
               out how your mind retains information the best. How do learn how
-              code moves? How do you explain it to yourself? When you're
-              debugging, where do you start and what's your process to find the
+              code moves? How do you explain it to yourself? When you&apos;re
+              debugging, where do you start and what&apos;s your process to find the
               bug? Ultimately, these are the real skills of being a coder. While
               the syntax of languages and frameworks are great, ultimately, the
               true skill of being a coder is the ability to learn and manage
-              your own mind as you're doing so.
+              your own mind as you&apos;re doing so.
             </p>
           </div>
           <div className="card bg-gradient-to-b from-blue-950 to-green-950 ">
@@ -38,7 +38,7 @@ export default function page() {
             Ultimately, the synergy of skills and technical prowess is what
             makes a brilliant coder. To truly understand the shape of the
             program combined with the expertise developed by years of
-            intentional growth is the true goal of a life long learner who's
+            intentional growth is the true goal of a life long learner who&apos;s
             embraced the path of being a coder.
           </p>
         </div>
