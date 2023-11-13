@@ -2,12 +2,8 @@ export default function Home() {
   return (
     <main>
       <>
-        <div
-          className="h-screen bg-gradient-to-b from-transparent via-blue
-        -950
-           via to-green-950)"
-        >
-          <div className="flex flex-col p-10">
+        <div className="h-full">
+          <div className="p-10">
             <h1>Hi, I'm Audrey Evergreene</h1>
             <h2>Front End Web Developer</h2>
             <p>
@@ -18,7 +14,6 @@ export default function Home() {
               creating clean solutions entice me to dive into software
               engineering.
             </p>
-
             <p>
               In addition to my love for problem solving, I am equally fueled by
               my passion for creating art in the digital realm. My goal is to
