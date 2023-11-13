@@ -1,5 +1,7 @@
 import { ScrollFade } from "../components/ScrollFade";
 
+// Maybe this is what's making the {children} inside ScrolFade component not work?
+
 export default function page() {
   return (
     <>
