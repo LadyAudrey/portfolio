@@ -3,7 +3,7 @@ export default function Briefcase() {
   return (
     <div>
       <Project
-        proj_name={"Debugging the Coder's Mind"}
+        proj_name={"Debugging the Coders' Mind"}
         proj_memo={
           "Teaching web development, increasing user comprehension and enjoyment"
         }
