@@ -4,7 +4,7 @@ export default function Home() {
       <>
         <div className="h-full">
           <div className="p-10">
-            <h1>Hi, I'm Audrey Evergreene</h1>
+            <h1>Hi, I&apos;m Audrey Evergreene</h1>
             <h2>Front End Web Developer</h2>
             <p>
               A lifelong learner and dedicated problem solver, I am
@@ -21,7 +21,7 @@ export default function Home() {
               of artistry to craft user-centric and visually captivating digital
               experiences. The challenges of front-end development excite me as
               they provide a platform to continuously learn, innovate, and
-              redefine the boundaries of what's achievable.
+              redefine the boundaries of what&apos;s achievable.
             </p>
           </div>
         </div>

@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Menu from "./Menu";
 import SocialMediaLinks from "./SocialMediaLinks";
 import BulletPt from "./BulletPt";
 
