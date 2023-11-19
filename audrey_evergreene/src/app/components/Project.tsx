@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Project(props: any) {
+
   const {
     proj_name,
     proj_memo,
@@ -19,7 +20,7 @@ export default function Project(props: any) {
   return (
     <>
       <div className="w-full">
-        <div className="flex flex-row justify-between align-middle">
+        <div className="fleax flex-row justify-between align-middle">
           <h3 className="text-5xl pt-5">{proj_name}</h3>
           <div>
             <Image src={logo} height={100} width={100} alt="Project Logo" />

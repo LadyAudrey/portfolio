@@ -2,8 +2,13 @@ export default function Home() {
   return (
     <main>
       <>
-        <div className="h-full">
-          <div className="p-10">
+
+        <div
+          className="h-screen bg-gradient-to-b from-transparent via-blue
+        -950
+           via to-green-950)"
+        >
+          <div className="flex flex-col p-10">
             <h1>Hi, I&apos;m Audrey Evergreene</h1>
             <h2>Front End Web Developer</h2>
             <p>

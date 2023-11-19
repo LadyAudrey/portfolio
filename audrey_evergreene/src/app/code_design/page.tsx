@@ -10,16 +10,17 @@ export default function page() {
             well-developed tools. I&apos;m grateful to be standing on the
             shoulders of many coders before me. I get to enjoy the tools that
             coders wished existed, figured out how to create, and then I get to
-            use those tools to develop the next generation. How cool is that???
+
           </p>
         </div>
         <div className="card bg-gradient-to-b from-blue-950 to-green-950 ">
           <h2 className="dualHeader">Designing</h2>
           <p>
-            I love creating digital art. Websites, vector graphics, GIFs,
-            stickers, photoshop... you name it. Playing with the tools,
-            exploring what&apos;s possible and how to get different tools to
-            interact in interesting ways is what makes me the happiest.
+
+            I love creating things. Websites, vector graphics, GIFs, stickers,
+            photoshop... you name it. Playing with the tools, exploring what&apos;s
+            possible and how to get different tools to interact in interesting
+            ways is what makes me the happiest.
           </p>
         </div>
       </div>
