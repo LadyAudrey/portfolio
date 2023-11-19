@@ -2,6 +2,7 @@ export default function Home() {
   return (
     <main>
       <>
+
         <div
           className="h-screen bg-gradient-to-b from-transparent via-blue
         -950
@@ -18,7 +19,6 @@ export default function Home() {
               creating clean solutions entice me to dive into software
               engineering.
             </p>
-
             <p>
               In addition to my love for problem solving, I am equally fueled by
               my passion for creating art in the digital realm. My goal is to

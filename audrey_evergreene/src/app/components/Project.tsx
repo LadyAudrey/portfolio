@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Project(props:any) {
+export default function Project(props: any) {
+
   const {
     proj_name,
     proj_memo,

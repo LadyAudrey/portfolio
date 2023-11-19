@@ -5,6 +5,12 @@
 .container {
     overflow-anchor: none;
 }
+.text-gradient {
+    background-size: 100%;
+    background-image: linear-gradient(transparent, white, transparent);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 @layer components {
     h1 {

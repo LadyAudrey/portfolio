@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-// import Menu from "./Menu";
+
 import SocialMediaLinks from "./SocialMediaLinks";
 import BulletPt from "./BulletPt";
 
@@ -15,7 +15,7 @@ export default function Menu() {
   }
   return (
     <>
-      <div className="fixed top-5 right-10">
+      <div className="fixed top-5 right-10 z-40">
         <div onClick={toggleMenu}>
           {menuOpen ? (
             <div className="flex flex-row-reverse gap-5 text-2xl bg-gradient-to-tr from-green-950 to-blue-950 text-white bg-amber-700 border-2">
