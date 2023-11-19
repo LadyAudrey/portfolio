@@ -10,7 +10,7 @@ import { useEffect } from "react";
 
 export function ScrollFade(props: any) {
   gsap.registerPlugin(ScrollTrigger);
-  let refs = useRef([])
+  let refs = useRef([]);
   const el = useRef(null);
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
@@ -21,6 +21,7 @@ export function ScrollFade(props: any) {
           start: "top top",
           end: "bottom top",
           scrub: true,
+          markers: true,
         },
       });
     }, el);
