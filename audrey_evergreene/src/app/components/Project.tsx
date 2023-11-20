@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Project(props: any) {
-
   const {
     proj_name,
     proj_memo,
@@ -20,18 +19,21 @@ export default function Project(props: any) {
   return (
     <>
       <div className="w-full">
-        <div className="fleax flex-row justify-between align-middle">
-          <h3 className="text-5xl pt-5">{proj_name}</h3>
+        <div className="flex flex-row justify-between align-middle">
+          <h3 className="flex flex-col text-5xl p-5 gap-5">
+            <em>{proj_name}</em>
+            <h3>{proj_memo}</h3>
+          </h3>
           <div>
-            <Image src={logo} height={100} width={100} alt="Project Logo" />
+            <Image src={logo} height={200} width={200} alt="Project Logo" />
           </div>
         </div>
-        <h3>{proj_memo}</h3>
         <div>
           <div>
-            {/* switch to Link */}
-            <h4>Live Link!</h4>
-            <p>{proj_link}</p>
+            {live_link ? (
+              <h4>{<Link href={live_link}>Live Link!</Link>}</h4>
+            ) : null}
+            {GHLink ? <h4>{<Link href={GHLink}>Github Repo</Link>}</h4> : null}
           </div>
         </div>
         <div className="project_item">

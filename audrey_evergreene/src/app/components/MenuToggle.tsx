@@ -8,7 +8,7 @@ import BulletPt from "./BulletPt";
 
 import { useState } from "react";
 
-export default function Menu() {
+export default function MenuToggle() {
   const [menuOpen, setMenuOpen] = useState(false);
   function toggleMenu() {
     setMenuOpen(!menuOpen);
