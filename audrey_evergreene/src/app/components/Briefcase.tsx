@@ -3,8 +3,23 @@ export default function Briefcase() {
   return (
     <div>
       <Project
-
-        proj_name={"Debugging the Coder&apos;s Mind"}
+        proj_name={"WhimsyScript Club"}
+        proj_memo={
+          "Silly games and toys to help developers stay in an open mindset while learning to code"
+        }
+        live_link="coming soon!"
+        GHLink={"https://github.com/LadyAudrey/whimsyscriptclub"}
+        logo={"/logos/projects/WhimsyScriptClub/8Ball.svg"}
+        // "/logos/projects/WhimsyScriptClub/Duckie.svg",
+        attributes={"Solo Project"}
+        TandT={"React, Next, Tailwind, Js, HTML, Vercel, Figma"}
+        role={"Web Developer and Designer"}
+        timeline={"11/15/2022 - Present"}
+        goals={"To help developers have a kinder learning curve"}
+        challenges={"Github issues"}
+      />
+      <Project
+        proj_name={"Debugging the Coders' Mind"}
         proj_memo={
           "Teaching web development, increasing user comprehension and enjoyment"
         }

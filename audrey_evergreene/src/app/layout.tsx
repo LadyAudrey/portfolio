@@ -2,7 +2,7 @@ import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
 import CornerGraphic from "./components/CornerGraphic";
-import Menu from "./components/MenuToggle";
+import MenuToggle from "./components/MenuToggle";
 
 export default function RootLayout({
   children,
@@ -21,12 +21,12 @@ export default function RootLayout({
             <CornerGraphic />
           </div>
           <div>
-            <Menu />
+            <MenuToggle />
           </div>
-          <div className="min-w-full md:pt-40 md:px-60 flex flex-row justify-between min-h-0 z-0">
+          <div className="min-w-full md:pt-40 md:px-60 flex flex-row justify-between z-0 pb-40">
             {children}
           </div>
-          <p className="text-white italic opacity-80 z-50">
+          <p className="fixed bottom-5 left-5 text-white italic opacity-80 z-50">
             @2023 Created by Audrey Evergreene
           </p>
           <div className="fixed right-5 bottom-5 w-1/2 h-auto rotate-180 z-20">
