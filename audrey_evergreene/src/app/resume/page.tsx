@@ -3,7 +3,13 @@ import Image from "next/image";
 export default function page() {
   return (
     <>
-      <img src="/AudreyEvergreeneFE9_2023.pdf" alt="resume pdf"/>
+      <Image
+        src="/AudreyEvergreeneFE9_2023.pdf"
+        height={1800}
+        width={1200}
+        alt="resume pdf"
+        className="w-full h-full"
+      />
     </>
   );
 }

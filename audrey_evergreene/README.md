@@ -48,7 +48,10 @@ I'm excited to see what's possible with Z-indexing and ternary operatorse
 
 ## 🚀 What's next
 
-Refining the Fade Scroll effect. I'll try GSAP and IntsersectionObserver()
+Refining the Fade Scroll effect. I'll try GSAP and IntsersectionObserver() next
+
 Tweaking the spacing. It feels a little crowded to me atm, especially in the projects page
+
 Sorting for projects to allow the user to look at the projects with a specific tool or attribute
-Media Queries for responsive
+
+Media Queries for responsive design

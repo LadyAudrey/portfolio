@@ -18,7 +18,7 @@ export default function MenuToggle() {
       <div className="fixed top-5 right-10 z-40">
         <div onClick={toggleMenu}>
           {menuOpen ? (
-            <div className="flex flex-row-reverse gap-5 text-2xl bg-gradient-to-tr from-green-950 to-blue-950 text-white bg-amber-700 border-2">
+            <div className="flex flex-row-reverse gap-5 text-2xl bg-gradient-to-tr from-green-950 to-blue-950 text-white bg-amber-700 p-5 border-2">
               <div>
                 <Image
                   src="/ExitMenu.svg"
@@ -33,15 +33,15 @@ export default function MenuToggle() {
                 <div className="flex flex-col gap-5">
                   <div className="menu_items">
                     <BulletPt />
-                    <Link href="src/app/page.tsx" replace>
+                    <Link href="/about" replace>
                       About Audrey
                     </Link>
                   </div>
                   <div className="menu_items">
-                    {""}
                     <BulletPt />
-                    <button>Projects</button>
-                    <Link href="/projects" replace></Link>
+                    <Link href="/projects" replace>
+                      Projects
+                    </Link>
                   </div>
                   <div className="menu_items">
                     <BulletPt />
@@ -55,18 +55,18 @@ export default function MenuToggle() {
                       Skills & Tools
                     </Link>
                   </div>
-                  <div className="menu_items">
+                  {/* <div className="menu_items">
                     <BulletPt />
                     <Link href="/testimonials" replace>
                       Testimonials
                     </Link>
-                  </div>
-                  <div className="menu_items">
+                  </div> */}
+                  {/* <div className="menu_items">
                     <BulletPt />
                     <Link href="/resume" replace>
                       Resume
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
