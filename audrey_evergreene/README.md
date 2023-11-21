@@ -1,30 +1,54 @@
 Welcome!
 
-Desired Effect: I want the children text to fade opacity to 0 on a scroll when the element gets to the top 1/5 (guess?) of the screen, or close to the corner graphics on the top and bottom.
+# Audrey Evergreenes' Portfolio Site
 
-Thank you again for your thoughts!
+## 💡 Inspiration
 
-Note: I am currently putting the scroll effect in a component called ScrollFade.tsx and then passing {children} inside of it. it is creating a fade on the / page (my bio, basically), but it's not happening on scroll, but rather the entire div
+I looked at 100+ portfolio websites and chose the format I liked the best. I wanted to explore modern UI with this site.
 
-I'm not sure what's going on with my other pages not rendering (or rendering the layout twice??) but that's an independent issue I can figure out another day.
+## 🤔 Purpose
 
-This project is built using React, Next and Tailwind
+Professional site to showcase front end skills and projects
 
-Goal: Portfolio site to showcase Front End web dev skills, portfolio of projects and use of data structures/ algorithms
+## 🎨 Design
 
-TDL-
+Designd using Figma before it was coded. Below are the wireframes and designs. However. some things were changed so the app does not look exactly like the designs shown.
+<img width="1303" alt="Screenshot 2023-08-06 at 9 13 01 AM" src="/wireframes/Untitled(5)/bg-emerald-700.svg">
 
-- Portfolio CSS styling and spacing
-- Sorting algos for SkillSpotlight
-  -Media Queries for responsive
-  -Fix X and LinkedIn button
-  -Make data have a opacity gradient that faces out on the top/ bottom % of the page
+<img width="805" alt="Screenshot 2023-08-06 at 9 13 21 AM" src="/wireframes/Untitled(5)/Portfolio- Color Pallete.svg">
 
-To run this project locally:
+<img width="1292" alt="Screenshot 2023-08-06 at 9 13 47 AM" src="/wireframes/Untitled(5)/Portfolio- Landing Page-1.svg">
 
-clone the repo git clone "repo link"
-navigate to repo _cd (directory name)_
-install dependencies _npm install_
-lastly, run Next _npm run dev_
+<img width="628" alt="Screenshot 2023-08-06 at 9 14 03 AM" src="wireframes/Untitled(5)/Portfolio- Landing Page-2.svg">
 
-This should give you a localhost link to open in your browser. If it doesn't, check that you're in the correct directory
+<img width="628" alt="Screenshot 2023-08-06 at 9 14 03 AM" src="/wireframes/Untitled(5)/Portfolio- Landing Page.svg">
+
+## 🛠 How we Built it
+
+- React
+- Next
+- Vite
+- Tailwind
+- Vercel
+- Github
+
+## ✨ Proud Achievements
+
+How the UI feels for the user. Creating the SVGs' in figma, designing and developing the site. Getting the different elements to overlap and stay where they were supposed to.
+
+## 😤 Challenges Encountered
+
+Some of the changes that the I faced were:
+
+- The scroll fade effect. Still a WIP.
+
+## 🙌 Insights
+
+I'm excited to see what's possible with Z-indexing and ternary operatorse
+
+## 🚀 What's next
+
+Refining the Fade Scroll effect. I'll try GSAP and IntsersectionObserver()
+Tweaking the spacing. It feels a little crowded to me atm, especially in the projects page
+Sorting for projects to allow the user to look at the projects with a specific tool or attribute
+Media Queries for responsive

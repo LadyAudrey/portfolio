@@ -11,12 +11,12 @@ export default function Home() {
         -950
            via to-green-950)"
         >
-          <div className="fixed top-5 right-36 z-20">
+          <div className="">
             <h1>Hi, I&apos;m Audrey Evergreene</h1>
             <h2 className="self-center">Front End Web Developer</h2>
           </div>
           <div>
-            <h2>Portfolio Projects</h2>
+            <h2>Below are my Portfolio Projects</h2>
             <Briefcase />
           </div>
         </div>
