@@ -7,7 +7,7 @@ export default function Briefcase() {
         proj_memo={
           "Silly games and toys to help developers stay in an open mindset while learning to code"
         }
-        live_link="coming soon!"
+        live_link="https://www.whimsyscript.club/"
         GHLink={"https://github.com/LadyAudrey/whimsyscriptclub"}
         logo={"/logos/projects/WhimsyScriptClub/8Ball.svg"}
         // "/logos/projects/WhimsyScriptClub/Duckie.svg",
@@ -16,7 +16,7 @@ export default function Briefcase() {
         role={"Web Developer and Designer"}
         timeline={"11/15/2022 - Present"}
         goals={"To help developers have a kinder learning curve"}
-        challenges={"Github issues"}
+        challenges={"Github issues, detached heads, etc"}
       />
       <Project
         proj_name={"Debugging the Coders' Mind"}
@@ -36,6 +36,7 @@ export default function Briefcase() {
         proj_name={"Self Scribe"}
         proj_memo={"Custom TDL app to correlate symptoms against habits"}
         GHLink={"https://github.com/LadyAudrey/self_scribe"}
+        logo={"/logos/projects/whtieScribe.svg"}
         attributes={"Pair Programming, Integrated Backend"}
         TandT={"React, Next, Tailwind, Js, HTML, Supabase, NodeJS, Express"}
         role={"Project Lead"}

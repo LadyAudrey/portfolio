@@ -28,37 +28,40 @@ export default function Project(props: any) {
             <Image src={logo} height={200} width={200} alt="Project Logo" />
           </div>
         </div>
-        <div>
+        <div className="grid grid-cols-2">
           <div>
-            {live_link ? (
-              <h4>{<Link href={live_link}>Live Link!</Link>}</h4>
-            ) : null}
-            {GHLink ? <h4>{<Link href={GHLink}>Github Repo</Link>}</h4> : null}
+            {/* link isn't redirecting, why? */}
+            <div className="flex py-5">
+              {live_link ? <Link href={live_link}>Live Link!</Link> : null}
+              {GHLink ? (
+                <h4>{<Link href={GHLink}>Github Repo</Link>}</h4>
+              ) : null}
+            </div>
           </div>
-        </div>
-        <div className="project_item">
-          <h4>Attributes</h4>
-          <p>{attributes}</p>
-        </div>
-        <div className="project_item">
-          <h4>Technologies and Techniques</h4>
-          <p>{TandT}</p>
-        </div>
-        <div className="project_item">
-          <h4>My Role</h4>
-          <p>{role}</p>
-        </div>
-        <div className="project_item">
-          <h4>Timeline</h4>
-          <p>{timeline}</p>
-        </div>
-        <div>
-          <h4 className="project_item">Goals and Objectives</h4>
-          <p>{goals}</p>
-        </div>
-        <div className="project_item">
-          <h4>Challenges</h4>
-          <p>{challenges}</p>
+          <div className="project_item">
+            <h4>Attributes</h4>
+            <p>{attributes}</p>
+          </div>
+          <div className="project_item">
+            <h4>Technologies and Techniques</h4>
+            <p>{TandT}</p>
+          </div>
+          <div className="project_item">
+            <h4>My Role</h4>
+            <p>{role}</p>
+          </div>
+          <div className="project_item">
+            <h4>Timeline</h4>
+            <p>{timeline}</p>
+          </div>
+          <div>
+            <h4 className="project_item">Goals and Objectives</h4>
+            <p>{goals}</p>
+          </div>
+          <div className="project_item">
+            <h4>Challenges</h4>
+            <p>{challenges}</p>
+          </div>
         </div>
       </div>
     </>
