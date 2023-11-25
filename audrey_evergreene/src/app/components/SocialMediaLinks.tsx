@@ -14,26 +14,24 @@ export default function SocialMediaLinks() {
       </Link>
       <Link href={"https://twitter.com/AudreyG45731656"} target="_blank">
         <Image
-          src="/logos/x-logo/logo-white.png"
+          src="/logos/SM/x-logo/logo.svg"
           height={30}
           width={30}
           alt="Twitter Logo"
         />
       </Link>
-      <div className="border-white border-2 p-2">
-        {" "}
-        <Link
-          href={"https://www.linkedin.com/in/audrey-evergreene/"}
-          target="_blank"
-        >
-          <Image
-            src="/logos/LinkedIn-Logos/LI-In-Bug.png"
-            height={30}
-            width={30}
-            alt="LinkedIn Logo"
-          />
-        </Link>
-      </div>
+      <Link
+        href={"https://www.linkedin.com/in/audrey-evergreene/"}
+        target="_blank"
+      >
+        <Image
+          // TDL- this image just isn't working. why??
+          src="/logos/SM/LinkedIn-Logos/linkedin-svgrepo-com.svg"
+          height={30}
+          width={30}
+          alt="LinkedIn Logo"
+        />
+      </Link>
     </div>
   );
 }
