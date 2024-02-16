@@ -26,7 +26,7 @@
         @apply text-2xl ml-5 mt-3 italic
     }
     p{
-        @apply ml-10 text-2xl leading-loose
+        @apply mt-10 text-2xl leading-loose
     }
     .bulletPt {
         @apply mx-5
@@ -40,5 +40,8 @@
     .menu_items {
         @apply flex flex-row items-center leading-relaxed text-3xl
         w-fit
+    }
+    .special-text { 
+        @apply p-10 mx-5 text-center bg-amber-950 rounded-xl border-4 border-amber-100
     }
 }

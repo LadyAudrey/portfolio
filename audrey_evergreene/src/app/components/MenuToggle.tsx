@@ -67,6 +67,12 @@ export default function MenuToggle() {
                       Resume
                     </Link>
                   </div> */}
+                  <div className="menu_items">
+                    <BulletPt />
+                    <Link href="/blog" replace={false}>
+                      Blog
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
