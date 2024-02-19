@@ -26,7 +26,7 @@ export default function page() {
   // return <h1>I'm a placeholder</h1>;
   return (
     <div className="relative">
-      <Arrows viewItem={viewItem} setViewItem={setViewItem} />
+      {/* <Arrows viewItem={viewItem} setViewItem={setViewItem} /> */}
       <div> {blogContent[0].element()}</div>
     </div>
   );
