@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+// import { useState } from "react";
 
 import { Arrows } from "../components/Arrows";
 
@@ -22,7 +22,7 @@ const blogContent = [
 console.log(blogContent[0].element);
 
 export default function page() {
-  const [viewItem, setViewItem] = useState(0);
+  // const [viewItem, setViewItem] = useState(0);
   // return <h1>I'm a placeholder</h1>;
   return (
     <div className="relative">
