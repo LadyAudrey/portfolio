@@ -3,14 +3,10 @@ export function Arrows(props) {
   const setViewItem = props.setViewItem;
 
   const lastItem = function () {
-    console.log("lastItem is firing");
     setViewItem(viewItem - 1);
-    console.log(viewItem);
   };
 
   const nextItem = function () {
-    console.log("nextItem is firing");
-
     setViewItem(viewItem + 1);
   };
   return (
