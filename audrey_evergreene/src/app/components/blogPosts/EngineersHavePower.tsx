@@ -13,9 +13,9 @@ function EngineersHavePower() {
       <h3 className="text-center underline">Engineers Have Power</h3>
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As
-        a Millennial junior software developer, I've been immersed in the world
-        of technology without fully grasping the global impact. It's fascinating
-        to think about how software, once viewed as an&nbsp;
+        a Millennial junior software developer, I&apos've been immersed in the
+        world of technology without fully grasping the global impact. It's
+        fascinating to think about how software, once viewed as an&nbsp;
         <em className="text-emerald-100">unavoidable necessity</em> has become a
         &nbsp;
         <em className="text-emerald-100">transformative tool&nbsp;</em>for so
