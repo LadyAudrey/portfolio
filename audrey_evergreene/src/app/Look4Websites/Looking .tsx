@@ -1,6 +1,6 @@
-import Link from "next/link"
+import Link from "next/link";
 
-import BulletPt from "../components/BulletPt"
+import BulletPt from "../components/BulletPt";
 
 export function Looking() {
   return (
@@ -9,7 +9,7 @@ export function Looking() {
       <div className="flex flex-col text-xl gap-5 my-5">
         <div className="flex">
           <BulletPt />
-          <Link hr<div>Looking </div>ef="/about" replace>
+          <Link href="/about" replace>
             Clean Code
           </Link>
         </div>

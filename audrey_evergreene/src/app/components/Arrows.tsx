@@ -1,4 +1,9 @@
-export function Arrows(props) {
+type ArrowsProps = {
+  viewItem: number;
+  setViewItem: (_: number) => void;
+};
+
+export function Arrows(props: ArrowsProps) {
   const viewItem = props.viewItem;
   const setViewItem = props.setViewItem;
 
