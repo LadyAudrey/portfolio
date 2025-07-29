@@ -1,12 +1,14 @@
 import Link from "next/link";
 
-import BulletPt from "../components/BulletPt";
+import BulletPt from "./BulletPt";
 
 export function Looking() {
   return (
     <>
-      <h3 className="text-2xl">What do you look for in a website?</h3>
-      <div className="flex flex-col text-xl gap-5 my-5">
+      <h3 className="flex flex-col items-center justify-center w-full m-auto text-2xl">
+        What do you look for in a website?
+      </h3>
+      <div className="flex flex-row justify-between text-xl">
         <div className="flex">
           <BulletPt />
           <Link href="/about" replace>
@@ -16,7 +18,7 @@ export function Looking() {
         <div className="flex">
           <BulletPt />
           <Link href="/about" replace>
-            Excellent User Interface and Experience
+            Excellent User Experience
           </Link>
         </div>
         <div className="flex">
