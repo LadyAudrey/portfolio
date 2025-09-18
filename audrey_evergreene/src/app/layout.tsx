@@ -23,11 +23,11 @@ export default function RootLayout({
           <div>
             <MenuToggle />
           </div>
-          <div className="min-w-full py-40 md:px-48 flex flex-row justify-between ">
+          <div className="w-full py-40 md:px-48 flex flex-row justify-between ">
             {children}
           </div>
           <p className="fixed bottom-5 left-5 text-white italic opacity-80 z-50">
-            @2023 Created by Audrey Evergreene
+            @2025 Created by Audrey Evergreene
           </p>
           <div className="fixed right-5 bottom-5 w-1/2 h-auto rotate-180 z-20">
             <CornerGraphic />

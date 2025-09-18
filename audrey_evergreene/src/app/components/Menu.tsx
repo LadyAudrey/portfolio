@@ -6,6 +6,13 @@ export default function Menu() {
   return (
     <div>
       <div className="flex flex-col gap-5">
+        {/* why doesn't this add a Home link in the menu? */}
+        <div className="menu_items">
+          <BulletPt />
+          <Link href="src/app/page.tsx" replace>
+            Home
+          </Link>
+        </div>
         <div className="menu_items">
           <BulletPt />
           <Link href="src/app/page.tsx" replace>
