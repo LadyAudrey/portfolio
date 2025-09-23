@@ -15,7 +15,8 @@
     "react-dom": "latest"
   },
   "devDependencies": {
-    "@types/node": "latest",
+    // I changed this node version from latest
+    "@types/node": "24.5.2",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
